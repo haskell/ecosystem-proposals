@@ -7,7 +7,7 @@ Process Process
 <https://github.com/haskell/ecosystem-proposals/blob/master/proposals/0000-proposal-process.rst>`_
 for a complete description of the ecosystem proposal process.
 
-It is shamelessly copied from the one used for `GHC Proposals<https://github.com/ghc-proposals/ghc-proposals`_
+It is shamelessly copied from the one used for `GHC Proposals<https://github.com/ghc-proposals/ghc-proposals>`_
 
 
 What is a proposal?
