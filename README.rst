@@ -125,13 +125,8 @@ process, here is a short summary,
 4. Discussion will proceed on the pull request; it is very likely that multiple
    iterations will be necessary before the proposal stabilizes.
 
-*Next two steps need to be discussed/agreed*
-
-5. When discussion has died down notify the (yet to be formed) Ecosystem Committee via
-   email. The committee will review the proposal, the feedback collected on
-   the pull request, and general community sentiment and decide whether the
-   proposal will be accepted.
-
-6. When your proposal is accepted your pull request will be merged. At this
-   point you or someone else may choose to implement your proposal.
-
+5. To be decided (as a community): what it means for a proposal to be accepted,
+   and what reasonable expectations are if this happens.
+   
+   In particular, changes require resources, and the haskell ecosystem has become
+   a big ship which has a very wide turning circle.
