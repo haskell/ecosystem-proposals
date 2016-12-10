@@ -74,7 +74,7 @@ process, here is a short summary,
    <https://help.github.com/articles/fork-a-repo/>`_ if you are unfamiliar with
    this aspect of GitHub's workflow.
 
-3. Write the proposal. At very least this should describe the following,
+2. Write the proposal. At very least this should describe the following,
 
    a. *Motivation*: What is the problem that you are trying to solve? Be specific:
       a concrete example or two can do wonders. Be sure to point out the
@@ -111,7 +111,7 @@ process, here is a short summary,
    <http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/editing-guide.html>`_
    for a brief introduction to ReStructuredText.
 
-4. When you feel your proposal document is complete, push your branch to your
+3. When you feel your proposal document is complete, push your branch to your
    fork (e.g. ``git push origin fancy-new-idea``), and open a Pull
    Request requesting that your branch be merged into the ``master`` branch of
    the ``haskell/ecosystem-proposals`` repository. If you unfamiliar with
@@ -122,16 +122,16 @@ process, here is a short summary,
    request description. Your proposal will automatically be announced on the
    ``TBD, probably haskell-cafe`` mailing list when this pull request is opened.
 
-5. Discussion will proceed on the pull request; it is very likely that multiple
+4. Discussion will proceed on the pull request; it is very likely that multiple
    iterations will be necessary before the proposal stabilizes.
 
 *Next two steps need to be discussed/agreed*
 
-6. When discussion has died down notify the (yet to be formed) Ecosystem Committee via
+5. When discussion has died down notify the (yet to be formed) Ecosystem Committee via
    email. The committee will review the proposal, the feedback collected on
    the pull request, and general community sentiment and decide whether the
    proposal will be accepted.
 
-7. When your proposal is accepted your pull request will be merged. At this
+6. When your proposal is accepted your pull request will be merged. At this
    point you or someone else may choose to implement your proposal.
 
