@@ -11,6 +11,11 @@ As there is a wider ecosystem around Haskell, in particular package curation,
 discovery and management, this proposal process is proposed to similarly provide
 a constructive venue for discussion around it.
 
+Note that this document is *proposing* a process, it is not describing some sort
+of official process for getting change to occur in the Haskell ecosystem. We are
+humbly proposing it to you, dear member of the Haskell community, as a way to
+rally forces around your ideas so that it gets done. Feel free to use a
+different process if you think it has a better chance of success.
 
 Motivation
 ----------
@@ -26,14 +31,13 @@ the direction these follow.
 Proposed change
 ---------------
 
-We propose that we adopt a variant on the
+We propose a variant on the
 `GHC Proposals <https://github.com/ghc-proposals/ghc-proposals>`_,
-building our proposal process on top of existing code review tools for
-dissemination and refinement of proposals with a standing committee acting as
-the final arbiter of proposal acceptance.
-
-To ensure that the process is as accessible and convenient as possible, we
-propose that we build this process on top of GitHub.
+namely to use a GitHub repository containing accepted proposals, and to use its
+pull request mechanism as a forum to discuss proposed changes. Unlike the GHC
+Proposals process, there is no committee acting as a final arbiter of proposal
+acceptance, because we recognize that changing the ecosystem requires buy-in
+from all the involved parties, it cannot be imposed by a committee.
 
 Proposal process
 ~~~~~~~~~~~~~~~~
@@ -50,87 +54,40 @@ Each proposal goes through the following stages:
    a file on GitHub), proposals can be made quickly without manual forking
    or cloning.
    
-2. Community members (including members of the proposal committee) will discuss
+2. Community members (including representatives of the projects who will
+   implement the proposed change) will discuss
    the proposal. The submitter is responsible for amending the specification to
    account for collected comments. It should be expected that the proposal will
    change during this process, which may last from days to months.
 
-3. When the author feels that the proposal is complete, and not being improved
-   by further discussion, they can submit the proposal to the proposal committee
-   for a decision.
+3. When the author feels that all the relevant representatives are on board with
+   the proposal, and that the proposal would not be improved by further
+   discussion, they can write a comment indicating that they consider the
+   proposal accepted.
 
-4. Within two (exceptionally three) weeks the committee will arrive at a
-   consensus as to whether the proposal in its submitted form meets a set of
-   criteria for inclusion (see below) while weighing the opinions expressed by
-   the community.
-
-   If the proposal is rejected then it will be sent back to the submitter along
-   with a rationale (referencing the criteria defined below). This is by no
-   means a final decision; the submitter may at any time amend and re-submit the
-   proposal to address the concerns of the committee.
-
-5. When the proposal is accepted the pull request will be merged and the
+4. One of the maintainers of this GitHub repository will then mark the proposal
+   as accepted by merging the pull request, and the
    document will be preserved in the proposals repository as a permanent
    specification for the feature.
    
-6. The author will create github issues on the appropriate ecosystem components,
+5. The author will create github issues on the appropriate ecosystem components,
    linking to the proposal to provide a place track the progress of the
    implementation.
 
-7. The author may choose to implement the proposal after acceptance, but she is
-   under no obligation to do so. (Of course, neither is anyone else.)
+6. The author may choose to implement the proposal after acceptance, but she is
+   under no obligation to do so. (Of course, neither is anyone else. This is why
+   it is important to get buy-in first.)
 
-8. During implementation, it is very likely that the specification will be refined.
+7. During implementation, it is very likely that the specification will be refined.
    The implementor should keep the specification up to date over the course of
    the implementation.
 
-9. If a proposal affects multiple components of the ecosystem and requires
-   coordination between them, there must be explicit buy-in from all affected
-   parties that they agree with the proposal.
-
-
-Ecosystem Committee
-~~~~~~~~~~~~~~~~~~~
-
-The process involves forming a small group which is responsible for
-deciding whether proposed changes should be accepted after discussion
-within the community. 
-
-The committee should be large enough to reflect the diversity of Haskell's
-contributor- and user-base but small enough to ensure a sense of individual
-responsibility among its members. A size of six to eight members would likely be
-a good starting point.
-
-It should also be representative of stakeholders in the ecosystem, in the
-entities that are hosting or funding infrastructure used by the community.
-
-To simplify the committee selection process, we propose that the committee is
-chosen as follows. We seek nominations (including self-nominations); and then
-TBD select members from those nominations. This is simple and clear. It is also
-not very democratic, but we have to start somewhere. Moreover, voting brings
-with it a number of additional complexities (e.g. who can vote? who decides who
-can vote? how are votes collected?)
-
-The group will have three roles,
-
-* *Deciding proposal acceptance.* At the proposal author's invitation, the
-  committee makes the decision over whether a proposal should be accepted, in
-  light of a set of defined criteria (see below).
-
-* *Judging whether the proposal process should be applied.* There will no doubt
-  be proposals where it is unclear whether the burden of the proposal process is
-  necessary. The responsibility for determining the scope of the process lies
-  with the committee.
-
-* *Ensuring that the process is applied when necessary.* The committee will be
-  expected to monitor GHC contributions and ensure that changes which fall
-  within the scope of the proposal process indeed go through the process.
 
 Criteria for new features
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The committee is responsible for weighing a variety of factors when deciding
-whether to adopt a feature. These are all judgement calls.
+When proposing or discussing a change, please take all of the following into
+account.
 
 1. *The problem*. What exactly is the problem that the feature solves? Is
    it an important problem, felt by many users, or is it very specialised?
@@ -144,7 +101,7 @@ whether to adopt a feature. These are all judgement calls.
 
 3. *Fit with the ecosystem*. If we just throw things into the ecosystem
    willy-nilly, it will become a large ball of incoherent and inconsistent mud.
-   We strive to add features that are consistent with the rest of the ecosystem.
+   Strive to add features that are consistent with the rest of the ecosystem.
 
 4. *Specification cost*. Does the benefit of the feature justify the extra
    complexity? Does the new feature interact awkwardly with existing features,
