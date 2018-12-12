@@ -3,7 +3,7 @@ Haskell Ecosystem Proposals
 
 This repository contains specifications for proposed changes to the
 broader haskell ecosystem. See the `Proposal
-Process Process
+Process Proposal
 <https://github.com/haskell/ecosystem-proposals/blob/master/proposals/0000-proposal-process.rst>`_
 for a complete description of the ecosystem proposal process.
 
