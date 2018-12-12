@@ -26,13 +26,13 @@ the direction these follow.
 Proposed change
 ---------------
 
-I propose that we adopt a variant on the
+We propose that we adopt a variant on the
 `GHC Proposals <https://github.com/ghc-proposals/ghc-proposals>`_,
 building our proposal process on top of existing code review tools for
 dissemination and refinement of proposals with a standing committee acting as
 the final arbiter of proposal acceptance.
 
-To ensure that the process is as accessible and convenient as possible, I
+To ensure that the process is as accessible and convenient as possible, we
 propose that we build this process on top of GitHub.
 
 Proposal process
@@ -104,7 +104,7 @@ a good starting point.
 It should also be representative of stakeholders in the ecosystem, in the
 entities that are hosting or funding infrastructure used by the community.
 
-To simplify the committee selection process, I propose that the committee is
+To simplify the committee selection process, we propose that the committee is
 chosen as follows. We seek nominations (including self-nominations); and then
 TBD select members from those nominations. This is simple and clear. It is also
 not very democratic, but we have to start somewhere. Moreover, voting brings
