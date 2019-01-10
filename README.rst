@@ -3,7 +3,7 @@ Haskell Ecosystem Proposals
 
 This repository contains specifications for proposed changes to the
 broader haskell ecosystem. See the `Proposal
-Process Process
+Process Proposal
 <https://github.com/haskell/ecosystem-proposals/blob/master/proposals/0000-proposal-process.rst>`_
 for a complete description of the ecosystem proposal process.
 
@@ -123,10 +123,16 @@ process, here is a short summary,
    ``TBD, probably haskell-cafe`` mailing list when this pull request is opened.
 
 4. Discussion will proceed on the pull request; it is very likely that multiple
-   iterations will be necessary before the proposal stabilizes.
-
-5. To be decided (as a community): what it means for a proposal to be accepted,
-   and what reasonable expectations are if this happens.
+   iterations will be necessary before the proposal stabilizes. If your proposal
+   involves changes in multiple projects, make sure that representatives of each
+   project are involved in the discussion.
    
-   In particular, changes require resources, and the haskell ecosystem has become
-   a big ship which has a very wide turning circle.
+5. Unlike the GHC proposals process, there is no committee who will be
+   responsible to approve or reject your proposal. This is because the ecosystem
+   consists of many separate projects, and nobody has the authority to tell the
+   contributors of those projects that they must now implement something because
+   a committee has decided so. Instead, you need to get buy-in from
+   representatives of each involved project. Once it is clear to you that they
+   will go forward with the implementation, please add a comment stating that
+   you consider your proposal accepted and one of the maintainers of this
+   repository will mark it as accepted.
